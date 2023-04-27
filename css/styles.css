@@ -1,0 +1,311 @@
+:root {
+	--color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+	--color-white: #ffffff;
+	--color-dairy: #fcfcfc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF
+
+}
+.list {
+  list-style: none;
+  background-color: #FFFFFF 
+}
+.link {
+  text-decoration: none;
+}
+
+/* Heder section */
+
+
+.logo-link {
+font-family: 'Raleway',sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+
+  color: #2E2F42;
+  color: #4d5ae5;
+}
+
+.accent-heder {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color:#2e2f42
+
+}
+.accent-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #f4f4fd 
+}
+
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-link:hover {
+  color: #404bbf 
+}
+.menu-link:focus {
+  color: #404bbf
+}
+
+.contact-menu{
+  font-style: normal;
+}
+
+.contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+.contact:hover {
+  color: #404bbf 
+}
+
+.contact:focus { 
+  color: #404bbf
+}
+
+
+/* Hero section */
+
+.hero-section {
+  background: #2e2f42;
+}
+
+.main-title {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+
+.menu-button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+  font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	text-transform: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4D5AE5 
+
+}
+
+.menu-button:hover {
+  background-color: #404BBF
+}
+.menu-button:focus {
+  background-color: #404BBF
+}
+
+/* About sectio */
+
+.about-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.about-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+/* Portfolio section */
+
+.portfolio-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  
+  color: #2e2f42;
+}
+
+/* Team section */
+
+.team-section {
+  background-color: #F4F4FD
+}
+
+.our-team {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color:  #2e2f42;
+  background-color: #F4F4FD
+
+}
+
+.team-item {
+  background-color: #FFFFFF
+
+}
+
+.our-team-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+/* Footer section */
+
+.footer-section {
+  background-color: #2e2f42
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #1a1a1f;
+}
+
+/* Button section portfolio */
+
+
+.menu-button-nav {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+  font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	text-transform: none;
+  cursor: pointer;
+
+  color: #ffffff;
+  background-color: #4D5AE5
+}
+
+.top-button-nav:hover {
+  background-color: #404BBF
+}
+.top-button-nav:focus {
+  background-color: #404BBF 
+}
+
+.menu-button-nav {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+	text-transform: none;
+  cursor: pointer;
+
+  color: #4d5ae5;
+  background-color: #F4F4FD
+}
+
+.menu-button-nav:hover {
+  color: #FFFFFF;
+  background-color: #404BBF 
+}
+
+.menu-button-nav:focus {
+  color: #FFFFFF;
+  background-color: #404BBF 
+}
+
+
+/* Hero project card */
+
+.caption {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  
+  color: #2E2F42;
+}
+
+.sub {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  
+  color: #434455;
+}
+
+.project-link {
+  text-decoration: none
+}
