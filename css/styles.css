@@ -181,6 +181,9 @@ img {
 
   color: #FFFFFF;
 }
+.mein-nav {
+ display: flex;
+}
 
 .menu-button {
   padding: 16px 32px;
@@ -330,7 +333,6 @@ img {
 .footer-section {
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 1440px;
   height: 312px;
   background-color: #2e2f42
 }
@@ -353,7 +355,6 @@ img {
  padding-top: 96px;
  padding-bottom: 72px;
 }
-
 
 .menu-button-nav {
   padding: 12px 24px;
@@ -382,6 +383,7 @@ img {
 }
 
 .menu-button-nav {
+  
   padding: 12px 24px;
   border-radius: 4px;
   text-align: center;
@@ -401,38 +403,51 @@ img {
 }
 
 .menu-button-list {
+ justify-content: center;
+ padding-bottom: 72px;
  align-items: center;
  display: flex;
  gap: 24px;
- justify-content: space-evenly;
-
-
+ 
 }
 
 .menu-button-nav:hover {
-  color: #FFFFFF;
-  background-color: #404BBF 
+ color: #FFFFFF;
+ background-color: #404BBF 
 }
 
 .menu-button-nav:focus {
-  color: #FFFFFF;
-  background-color: #404BBF 
+ color: #FFFFFF;
+ background-color: #404BBF 
 }
 
 .project-card-list {
+ gap: 24px;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
 }
 
-.project-item:not(:nth-child(3n)){ 
-
+.project-item { 
+ flex-basis: calc(100%-144px/9);
 }
 
+.project-card-text{
+  padding-bottom: 32px;
+}
+
+.project-title {
+  margin-bottom: 8px;
+}
+
+.project-card-text {
+ padding-top: 32px;
+}
 
 /* Hero project card */
 
 .caption {
+  
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 20px;
@@ -440,6 +455,7 @@ img {
   letter-spacing: 0.02em;
   
   color: #2E2F42;
+
 }
 
 .sub {
