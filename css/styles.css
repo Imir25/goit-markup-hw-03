@@ -18,7 +18,7 @@ body {
   background-color: #FFFFFF
 }
 .container {
-  Width: 1200px;
+  Width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -54,12 +54,21 @@ img {
 /* Heder section */
 
 .heder-section {
+  border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
 
 }
+.heder-contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
 
 .logo-link {
+ display: inline-block; 
+ margin-bottom: 16px;
  margin-right: 76px;
  font-family: 'Raleway',sans-serif;
  font-weight: 800;
@@ -98,6 +107,8 @@ img {
 }
 
 .menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -111,13 +122,6 @@ img {
 }
 .menu-link:focus {
   color: #404bbf
-}
-
-.heder-contact-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
 }
 
 .menu {
@@ -137,10 +141,9 @@ img {
   font-style: normal;
 }
 .contact {
+  gap: 40px;
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: 40px;
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
@@ -168,7 +171,7 @@ img {
 }
 
 .main-title {
-  Width: 496px;
+  max-width: 496px;
   font-size: 56px;
   margin-left: auto;
   margin-right: auto;
@@ -188,6 +191,11 @@ img {
 .menu-button {
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  display: block;
+  cursor: pointer;
+  border: none;
 
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
@@ -196,7 +204,7 @@ img {
 	letter-spacing: 0.04em;
 	text-decoration: none;
 	text-transform: none;
-  cursor: pointer;
+  
   color: #ffffff;
   border: 1px solid transparent;
   background-color: #4D5AE5;
@@ -221,6 +229,7 @@ img {
  display: flex;
  flex-wrap: wrap;
  gap: 24px;
+ flex-basis: calc((100% - 72px) / 4);
 }
 
 .about-title {
@@ -254,7 +263,7 @@ img {
 .portfolio-list {
  display: flex;
  gap: 24px;
- flex-basis: calc(100%-48px/3);
+ flex-basis: calc((100% - 3 * 16px) / 3);
  
 }
 .portfolio-title {
@@ -268,7 +277,6 @@ img {
   text-transform: capitalize;
   
   color: #2e2f42;
-
 }
 
 /* Team section */
@@ -295,8 +303,9 @@ img {
 .team-list { 
  display: flex;
  gap: 24px;
+ border-radius: 0px 0px 4px 4px;
  justify-content: space-evenly;
- flex-basis: calc(100%-72px/4);
+ flex-basis: calc((100% - 72px) / 4);
 }
 
 .or-team-card-content { 
@@ -353,7 +362,7 @@ img {
 
 .button-section {
  padding-top: 96px;
- padding-bottom: 72px;
+ padding-bottom: 120px;
 }
 
 .menu-button-nav {
@@ -404,7 +413,7 @@ img {
 
 .menu-button-list {
  justify-content: center;
- padding-bottom: 72px;
+ margin-bottom: 72px;
  align-items: center;
  display: flex;
  gap: 24px;
@@ -412,28 +421,33 @@ img {
 }
 
 .menu-button-nav:hover {
+ border: 1px solid transparent;
  color: #FFFFFF;
  background-color: #404BBF 
 }
 
 .menu-button-nav:focus {
+ border: 1px solid transparent;
  color: #FFFFFF;
  background-color: #404BBF 
 }
 
 .project-card-list {
  gap: 24px;
+ row-gap: 48px;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
 }
 
 .project-item { 
- flex-basis: calc(100%-144px/9);
+ 
+ flex-basis: calc(100%-48px/3);
 }
 
 .project-card-text{
-  padding-bottom: 32px;
+  border: 1px solid #e7e9fc; 
+  padding: 32px 16px;
 }
 
 .project-title {
