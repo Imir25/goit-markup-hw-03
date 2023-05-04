@@ -185,6 +185,7 @@ img {
   color: #FFFFFF;
 }
 .mein-nav {
+ align-items: center;
  display: flex;
 }
 
@@ -286,10 +287,7 @@ img {
 }
 
 .our-team {
- margin-bottom: 72px;
-}
-
-.our-team {
+  margin-bottom: 72px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
@@ -303,7 +301,7 @@ img {
 .team-list { 
  display: flex;
  gap: 24px;
- border-radius: 0px 0px 4px 4px;
+ border-top-left-radius: 0px;
  justify-content: space-evenly;
  flex-basis: calc((100% - 72px) / 4);
 }
