@@ -206,9 +206,8 @@ img {
   height: 56px;
   display: block;
   cursor: pointer;
-  border: none;
-
-	font-family: "Roboto", sans-serif;
+  border-top: none;
+  
 	font-weight: 500;
   font-size: 16px;
 	line-height: 24px;
@@ -377,7 +376,7 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   text-align: center;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   border-top: none;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
@@ -387,7 +386,6 @@ img {
 	text-decoration: none;
 	text-transform: none;
   cursor: pointer;
-
   color: #ffffff;
   background-color: #4D5AE5
 }
@@ -412,11 +410,8 @@ img {
 	text-transform: none;
   cursor: pointer;
   color: #4d5ae5;
+  border: 1px solid #E7E9FC;
   background-color: #F4F4FD;
-}
-
-.button-item{
-  
 }
 
 .menu-button-list {
