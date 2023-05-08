@@ -334,10 +334,10 @@ img {
 }
 .footer-section .logo-link {
   margin-right: 0;
+  margin-bottom: 16px;
 }
 
 .footer-text { 
-  margin-top: 17px;
   width: 264px;
   height: 72px;
   font-size: 16px;
